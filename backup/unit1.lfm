@@ -1,0 +1,118 @@
+object Form1: TForm1
+  Left = 280
+  Height = 617
+  Top = 67
+  Width = 646
+  Caption = 'Form1'
+  ClientHeight = 617
+  ClientWidth = 646
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object PaintBox1: TPaintBox
+    Left = 32
+    Height = 456
+    Top = 32
+    Width = 881
+    OnClick = PaintBox1Paint
+    OnPaint = PaintBox1Paint
+  end
+  object ButtonDindingColorClick: TButton
+    Left = 72
+    Height = 25
+    Top = 512
+    Width = 75
+    Caption = 'Dinding'
+    TabOrder = 0
+    OnClick = ButtonDindingColorClick
+  end
+  object ButtonAtapColorClick: TButton
+    Left = 184
+    Height = 25
+    Top = 512
+    Width = 75
+    Caption = 'Atap'
+    TabOrder = 1
+    OnClick = ButtonAtapColorClick
+  end
+  object ButtonPintuColorClick: TButton
+    Left = 304
+    Height = 25
+    Top = 512
+    Width = 75
+    Caption = 'Pintu'
+    TabOrder = 2
+    OnClick = ButtonPintuColorClickClick
+  end
+  object ButtonJendelaColorClick: TButton
+    Left = 416
+    Height = 25
+    Top = 512
+    Width = 75
+    Caption = 'Jendela'
+    TabOrder = 3
+    OnClick = ButtonJendelaColorClickClick
+  end
+  object ButtonScaleUpClick: TButton
+    Left = 72
+    Height = 25
+    Top = 576
+    Width = 75
+    Caption = 'Perbesar'
+    TabOrder = 4
+    OnClick = ButtonScaleUpClickClick
+  end
+  object ButtonScaleDownClick: TButton
+    Left = 184
+    Height = 25
+    Top = 576
+    Width = 75
+    Caption = 'Perkecil'
+    TabOrder = 5
+    OnClick = ButtonScaleDownClickClick
+  end
+  object ButtonMoveLeftClick: TButton
+    Left = 304
+    Height = 25
+    Top = 576
+    Width = 75
+    Caption = 'Kiri'
+    TabOrder = 6
+    OnClick = ButtonMoveLeftClickClick
+  end
+  object ButtonMoveRightClick: TButton
+    Left = 416
+    Height = 25
+    Top = 576
+    Width = 75
+    Caption = 'Kanan'
+    TabOrder = 7
+    OnClick = ButtonMoveRightClickClick
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    Left = 256
+    Top = 624
+  end
+end
